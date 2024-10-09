@@ -1,0 +1,15 @@
+﻿<Window x:Class="subraction.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:subraction"
+        mc:Ignorable="d"
+        Background="Black"
+        Title="MainWindow" Height="350" Width="300">
+    <StackPanel>
+        <TextBox x:Name="txtvalue1" Margin="5"></TextBox>
+        <TextBox x:Name="txtvalue2" Margin="5"></TextBox>
+        <Button  x:Name="btnresult" Click="btnresult_Click" Height="30" Margin="5"></Button>
+    </StackPanel>
+</Window>
